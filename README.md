@@ -28,8 +28,3 @@ Technologies Used:
 
 If viewers wish to customize or enhance the application with additional functionalities, they are encouraged to do so.
 The platform is open for modifications, empowering users to tailor it according to their specific needs and preferences.
-Getting Started:
-
-Clone the repository: git clone <repository-url>
-Install dependencies: npm install
-Run the development server: npm start
