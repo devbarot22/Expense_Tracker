@@ -18,10 +18,10 @@ Users can view a list of their past transactions, allowing them to review their 
 
 Technologies Used: 
 
-React+Vite
-TypeScript
-Tailwind CSS
-CSS
+*React+Vite
+*TypeScript
+*Tailwind CSS
+*CSS
 
 
 
