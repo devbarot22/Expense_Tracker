@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  display: flex;
+  background-color: rgb(231, 231, 234);
+  flex-direction: column;
+}
+
+.minus {
+  border-right: 4px solid rgb(173, 21, 21);
+}
+
+.plus {
+  border-right: 4px solid rgb(22, 129, 22);
+}
+
+ .delete-btn {
+  cursor: pointer;
+  margin-left: -25px;
+  background: transparent;
+  color: #dd3838;
+  font-size: large;
+  position: absolute;
+  opacity: 0; 
+  transition: .4s ease-in-out; 
+ } 
+
+ .delete-btn1 {
+  cursor: pointer;
+  background: transparent;
+  color: #dd3838;
+  font-size: xx-small;
+  margin-left: 10px;
+  opacity: 0; 
+  transition: .4s ease-in-out; 
+ } 
+
+.list:hover .delete-btn{
+  opacity: 1;
+}
+
+.list1:hover .delete-btn1{
+  opacity: 1;
+  transform: translateX(10px);
+}
+
+
+.viewMorePage{
+  top: 36%;
+  left: 50%;
+  height: 56dvh;
+  transform: translate(-50%, -50%);
+  overflow-y: auto;
+  overflow-wrap: break-word;
+  scrollbar-width: none;
+}
+
+.pop-up-head{
+  display: flex;
+  margin-left: 3px;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+.listHeading{
+  font-size: larger;
+}
+
+.closing-btn{
+  font-size: larger;
+  color: red;
+  margin-right: 10px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+}
